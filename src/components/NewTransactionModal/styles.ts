@@ -1,7 +1,8 @@
 import styled from 'styled-components';
-import { darken, transparentize } from 'polished'
+import { darken, transparentize } from "polished";
 
 export const Container = styled.form ` 
+
     h2 {
         color: var(--text-title);
         font-size: 1.5rem;
@@ -61,9 +62,6 @@ export const TransactionTypeContainer = styled.div `
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.5rem;
-
-    
-
 `;
 
 interface RadioBoxProps {
@@ -91,11 +89,7 @@ export const RadioBox = styled.button <RadioBoxProps> `
         justify-content: center;
 
         transition: border-color 0.2s;
-
-
-        &:hover {
-            border-color: ${darken(0.2, '#d7d7d7')};
-        }
+ 
 
         img {
             width:20px;
@@ -107,9 +101,8 @@ export const RadioBox = styled.button <RadioBoxProps> `
             margin-left: 1rem;
             font-size: 1rem;
             color: var(--text-title);
-
         }
-
-
-    }
+        &:hover {
+            border-color: ${darken(0.2, '#d7d7d7')};
+        }
 `;

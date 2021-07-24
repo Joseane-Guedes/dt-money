@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle `
+
     :root {
         --background: #f0f2f5 ;
         --red: #E52E4D;
@@ -16,11 +17,14 @@ export const GlobalStyle = createGlobalStyle `
         --shape: #FFFFFF;
 
     }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+ // Default font-size: 16px (Desktop)
 
 hmtl {
     @media (max-width: 1080px) {
@@ -70,6 +74,9 @@ button {
     justify-content: center;
 }
 
+@media (max-width: 720px) {
+      align-items: flex-end;
+    }
 
 .react-modal-content{
     width: 100%;
@@ -79,21 +86,26 @@ button {
     position: relative;
     border-radius: 0.24rem; // 4px
 
-}
-
-.react-modal-close {
-    position: absolute;
-    right: 1.5rem;
-    top: 1.5rem;
-    border: 0;
-    background: transparent;
-
-    &:hover {
-        filter: brightness(0.)
+    @media (max-width: 720px) {
+      border-radius: 1rem;
     }
 
 }
 
+.react-modal-close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    border: 0;
+    font-size: none;
+    background: transparent;
 
-`
+    transition: filter 0.2s;
+    
+    &:hover {
+      filter: brightness(0.8)
+    }
+}
+
+`;
 

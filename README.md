@@ -1,46 +1,75 @@
-# Getting Started with Create React App
+<h1 align="center">  <img src="./.github/dtmoneylogo.png" width="800px" alt="Home page"> </h1> 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">	
+   <img alt="repo size" src="https://img.shields.io/github/repo-size/Joseane-Guedes/dt-money" />
+    <img alt="issues" src="https://img.shields.io/github/issues/Joseane-Guedes/dt-money" />
+  <img alt="forks" src="https://img.shields.io/github/forks/Joseane-Guedes/dt-money"/>
+  <img alt="Stars" src="https://img.shields.io/github/stars/Joseane-Guedes/dt-money" />
+  <img alt="Twitter" src="https://img.shields.io/twitter/follow/JoseaneGuedes8?style=social">
+  <img alt="Languages" src="https://img.shields.io/github/languages/count/Joseane-Guedes/dt-money">
+</p>
 
-## Available Scripts
 
-In the project directory, you can run:
+<p align="center">
+   💰 Manage your money properly with dtmoney!
+</p>
 
-### `yarn start`
+# :books: About
+Project developed during the second Bootcamp Ignite module.
+ <br> [@Rocketseat](https://rocketseat.com.br/ignite).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# :art: Layout
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<div align="center">
+  <p align="center">
+    <img src="./.github/dtmoney.gif" width="700px" alt="Home page">
+  </p>
+</div>
 
-### `yarn test`
+# :rocket: Tecnologies
+- ReactJS
+- Typescript
+- Axios
+- Miragejs
+- Styled Components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 🔧 Run Locally
 
-### `yarn build`
+Clone the project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  git clone git@github.com:Joseane-Guedes/dt-money.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Go to the project directory
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  cd dt-money
+```
 
-### `yarn eject`
+Install dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+  yarn 
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Start the server
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+  yarn start 
+```
+# :closed_book: License
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Released in 2021 :closed_book: License
 
-## Learn More
+This project is under the [MIT license](./LICENSE).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- <p align="center">
+   <b> &#60;/&#62; by <a href="https://www.linkedin.com/in/joseane-guedes/">Joseane Guedes</a></b>
+</p> -->
+
+Made with :purple_heart: by [Rocketseat](https://rocketseat.com.br/ignite) :rocket: and [Joseane Guedes ](https://github.com/Joseane-Guedes) :woman_technologist: 
+
+
