@@ -11,12 +11,13 @@
 
 
 <p align="center">
-   💰 Manage your money properly with dtmoney!
+    🚀Bootcamp Ignite ⚛️ ReactJS challenge 3: 💰 Manage your money properly with dtmoney!
 </p>
 
 # :books: About
-Project developed during the second Bootcamp Ignite module.
- <br> [@Rocketseat](https://rocketseat.com.br/ignite).
+<p align="justify">Why not use dtmoney to help manage your finances? The major function of this app is to provide users with transparency over their income and payments and help them have control over their savings goals!</p>
+
+<p align="justify">Dtmoney is user-friendly and helpful if you want to better understand the general state of your finances.</p>
 
 # :art: Layout
 
@@ -30,8 +31,9 @@ Project developed during the second Bootcamp Ignite module.
 - ReactJS
 - Typescript
 - Axios
-- Miragejs
 - Styled Components
+- Polished
+- Miragejs
 
 # 🔧 Run Locally
 

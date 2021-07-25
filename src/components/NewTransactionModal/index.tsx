@@ -55,16 +55,16 @@ async function handleCreateNewTransaction (event: FormEvent) {
       </button>
 
       <Container onSubmit={handleCreateNewTransaction}>
-        <h2>Cadastrar transação</h2>
+        <h2>Register Transaction</h2>
 
-        <input placeholder="Título"
+        <input placeholder="Title"
         value={title}
         onChange={event => setTitle(event.target.value)}
         />
 
         <input 
           type="number"
-          placeholder="Valor" 
+          placeholder="Value" 
           value={amount}
          onChange={event => setAmount(Number(event.target.value))}
         />
@@ -77,7 +77,7 @@ async function handleCreateNewTransaction (event: FormEvent) {
             activeColor="green"
           >
             <img src={incomeImg} alt="Entrada" />
-            <span>Entrada</span>
+            <span>Income</span>
           </RadioBox >
 
           <RadioBox
@@ -87,18 +87,18 @@ async function handleCreateNewTransaction (event: FormEvent) {
             activeColor="red"
           >
             <img src={outcomeImg} alt="Saída" />
-            <span>Saída</span>
+            <span>Outcome</span>
           </RadioBox >
  </TransactionTypeContainer>
 
-        <input placeholder="Categoria"
+        <input placeholder="Category"
              value={category}
              onChange={event => setCategory(event.target.value)}
         />
 
 
         <button type="submit">
-          Cadastrar
+          Register
         </button>
 
       </Container>
